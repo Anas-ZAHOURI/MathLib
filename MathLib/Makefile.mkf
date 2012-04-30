@@ -1,0 +1,5 @@
+test.exe:main.o
+	gcc -o test.exe main.o
+
+%.o: %.c
+	gcc -c -o $*.o $*.c

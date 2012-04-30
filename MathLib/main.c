@@ -1,30 +1,26 @@
-// The functions contained in this file are pretty dummy
-// and are included only as a placeholder. Nevertheless,
-// they *will* get included in the static library if you
-// don't remove them :)
-// 
-// Obviously, you 'll have to write yourself the super-duper
-// functions to include in the resulting library...
-// Also, it's not necessary to write every function in this file.
-// Feel free to add more files in this project. They will be
-// included in the resulting library.
-
-// A function adding two integers and returning the result
-int SampleAddInt(int i1, int i2)
+/*************************************************************************
+* Project: librairie Mathématique
+* Function: Calcul sur des grands nombre entiers
+*************************************************************************
+* $Author: Anas Zahouri
+* $Name: $ anosi22
+*************************************************************************
+*
+* Copyright 2012 by company name
+*
+************************************************************************/
+#include<stdio.h>
+#include <string.h>
+void main ()
 {
-    return i1 + i2;
-}
+    int a=0;
+    char f[]="anosi anosi";
+    int i=0;
+    int x = strlen(f);
 
-// A function doing nothing ;)
-void SampleFunction1()
-{
-    // insert code here
-}
-
-// A function always returning zero
-int SampleFunction2()
-{
-    // insert code here
-    
-    return 0;
+    /*for(i;i<x;i++){
+        printf("%c",f[i]);
+    }*/
+    printf("%s",f);
+    printf("\n");
 }

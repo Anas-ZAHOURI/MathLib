@@ -1,6 +1,0 @@
-test:Module1.o Module2.o main.o
-	gcc -o test Module1.o Module2.o main.o
-
-%.o: %.c
-	gcc -c -o $*.o $*.c
-

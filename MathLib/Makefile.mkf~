@@ -2,7 +2,7 @@ test.exe:main.o
 	gcc -o test.exe main.o
 
 test2.exe:simple.o
-	gcc -o test2.exe simple.o
+	gcc -o test2.exe main.o
 
 %.o: %.c
 	gcc -c -o $*.o $*.c
